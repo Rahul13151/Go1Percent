@@ -1,6 +1,6 @@
 # Go1percent Tests
 
-This project comprises of LogIn test cases for [Go1percent portal](https://nashtechglobal.qa.go1percent.com/).
+This project comprises of LogIn And Dashboard test cases for [Go1percent portal](https://nashtechglobal.qa.go1percent.com/).
 
 This article will provides reader all the information on how to setup their local system to execute the mentioned Log-In test cases .
 
