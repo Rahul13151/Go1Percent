@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="dashboardTest"
+    errors="2" failures="1" hostname="" id="" package="dashboardTest" skipped="19"
+    tests="1" time="101.5" timestamp="">
+  
+    <testcase name="LB-816 : Verify user should be able to see Welcome text (TC-64) " classname="dashboardTest" time="5.303" assertions="1">  <failure message="Testing if element&#39;s &lt;#navbarBlur h4 span&gt; inner text equals &#39;Welcome,&#39; in 5000ms - expected &#34;equals &#39;Welcome,&#39;&#34; but got: &#34;element could not be located&#34; (5243ms)">    at DescribeInstance.&lt;anonymous&gt; (/home/knoldus/Desktop/First_Nightwatch_Framework-add-LogIn-tests/tests/dashboardTest.js:21:17)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /home/knoldus/Desktop/First_Nightwatch_Framework-add-LogIn-tests/tests/dashboardTest.js:12
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     10 |         .window.setSize(1920,1000);
+     11 |         dashboard.navigate();
+     12 |         signInPage.validSignIn(); 
+     13 |         console.log(&#34;Running Sign in Test&#34;);
+     14 | 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /home/knoldus/Desktop/First_Nightwatch_Framework-add-LogIn-tests/tests/dashboardTest.js:12
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     10 |         .window.setSize(1920,1000);
+     11 |         dashboard.navigate();
+     12 |         signInPage.validSignIn(); 
+     13 |         console.log(&#34;Running Sign in Test&#34;);
+     14 | 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="LB-814 : Verify user should be able to see all fields in dashboard page (TC-63)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-818 : Verify user should be able to navigate profile page through Profile picture (TC-65)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-822 : Verify user should be able Search a Nasher (TC-69)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-823 : Verify user should be able to Change to French Language from dropdown (TC-70)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-824 : Verify user should be able to Change to English Language from dropdown (TC-71)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-825 : Verify user should be able to Change Application view to Light Mode (TC-72) " classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-826 : Verify user should be able to Change Application view to Dark Mode (TC-73) " classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-827 : Verify user should be able to see Last Contribution (TC-74)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-828 : Verify user should be able to see Contribution on Motivation tile (TC-75)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-833 : Verify user should be able to click see all button for Daily motivation tile (TC-80)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-829 : Verify user should be able to Like specific Contribution (TC-76) " classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name=" LB-830 : Verify user should be able to Dislike specific Contribution (TC-77)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-831 : Verify user should be able to send a Comment on specific Contribution (TC-78)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-832 : Verify use should be able to Share specific Contribution on social media (TC-79)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name=" LB-834 : Verify user should be able to navigate Profile page through Settings button (TC-81)" classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-1286 : Verify user should be able to click on points and redirect to profile page " classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name=" LB-1287 : Verify user should be able to click on Overall ranks and redirect to profile page." classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-1288 : Verify user should be able to click on Overall score and redirect to profile page. " classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="LB-836 : Verify user should be able to Logout through Settings button (TC-83) " classname="dashboardTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

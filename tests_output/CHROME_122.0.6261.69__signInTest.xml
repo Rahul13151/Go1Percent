@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="11">
+
+  <testsuite name="signInTest"
+    errors="0" failures="1" hostname="" id="" package="signInTest" skipped="1"
+    tests="11" time="47.89" timestamp="">
+  
+    <testcase name="LB-1132 : Verify &#34;Go1Percent&#34; logo, carousel images, carousel caption and the footer message (TC-337) " classname="signInTest" time="2.081" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="LB-1133 : Verify that tag line with text &#34;Get 1% Better Everyday&#34; is displayed (TC-338)" classname="signInTest" time="0.05300" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="LB-1134 : Verify that carousel image changes while clicking on carousel button (TC-339)" classname="signInTest" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="LB-1136 : Verify that specific text between login options is present on the web page (TC-341)" classname="signInTest" time="0.1280" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name=" LB-1135 : Verify that login page heading contains text &#34;Sign in to Go 1%&#34; is displayed (TC-340)" classname="signInTest" time="0.03900" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="LB-1137 : Verify that clicking on the Microsoft logo redirects to the Microsoft login page (TC-342)" classname="signInTest" time="0.9950" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="LB-1138 : Verify that login fails with invalid credentials and an alert message is displayed (TC-343)" classname="signInTest" time="1.621" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name=" LB-1140 : Verify remember me checkbox is selected during login (TC-345)" classname="signInTest" time="0.05600" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name=" LB-1141 : Verify the forgot Password functionality (TC-346) " classname="signInTest" time="1.105" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="LB-1142 : Verify clicking on the &#34;Terms of Use&#34; link opens a new page with the terms of use (TC-347)" classname="signInTest" time="6.704" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name=" LB-1143 : Verify clicking on the &#34;Privacy policy&#34; link opens a new page with the privacy policy (TC-348) " classname="signInTest" time="10.15" assertions="1">  <failure message="Testing if element &lt;//h5[contains(text(),&#39;Privacy Policy&#39;)]&gt; contains text &#39;Privacy Policy&#39; in 5000ms - expected &#34;contains text &#39;Privacy Policy&#39;&#34; but got: &#34;element could not be located&#34; (9703ms)">    at NightwatchAPI.&lt;anonymous&gt; (/home/knoldus/Desktop/First_Nightwatch_Framework-add-LogIn-tests/tests/signInTest.js:113:28)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+    
+    <testcase
+      name=" LB-1139 : Verify successful login with valid credentials (TC-344) " classname="signInTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

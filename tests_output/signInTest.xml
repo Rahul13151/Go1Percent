@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="signInTest"
+    errors="1" failures="0" hostname="" id="" package="signInTest" skipped="2"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new ChromeDriver session: [Error] spawn node_modules/chromedriver/lib/chromedriver/chromedriver.exe ENOENT
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;node_modules/chromedriver/lib/chromedriver/chromedriver.exe&#39;,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /home/knoldus/Desktop/First_Nightwatch_Framework-add-LogIn-tests/logs/signInTest_chromedriver.log
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new ChromeDriver session: [Error] spawn node_modules/chromedriver/lib/chromedriver/chromedriver.exe ENOENT"><![CDATA[
+      Error: An error occurred while creating a new ChromeDriver session: [Error] spawn node_modules/chromedriver/lib/chromedriver/chromedriver.exe ENOENT
+    at /home/knoldus/node_modules/selenium-webdriver/remote/index.js:259:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Try Login with Valid Credentials" classname="signInTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Try Login with Valid Email and Invalid Password " classname="signInTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
